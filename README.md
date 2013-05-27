@@ -17,6 +17,7 @@ Installation
 
 
 Install SQL
+
 	ALTER TABLE  `oxcontents` ADD  `PSCMSSNIPPETS_DISABLE` TINYINT( 1 ) NOT NULL;
 
 
