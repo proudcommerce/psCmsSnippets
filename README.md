@@ -13,7 +13,9 @@ Features
 Installation
 
 	1. copy content from copy_this folder into your shop root
-	2. activate module psCmsSnippets in shop admin
+	2. copy content from changed_full folder into your shop root (and/or customize)
+	3. install sql (see below) and update views (shop admin --> service --> tools)
+	4. activate module psCmsSnippets in shop admin
 
 
 Install SQL
