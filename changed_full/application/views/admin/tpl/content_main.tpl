@@ -79,18 +79,6 @@ function ShowMenueFields( iVal)
                       [{ oxinputhelp ident="HELP_GENERAL_TITLE" }]
                       </td>
                     </tr>
-
-                    [{* tabsl_seo | start *}]
-                    <tr>
-                        <td class="edittext">
-                            [{ oxmultilang ident="TABSL_SEO_TITLE_TAG" }]
-                        </td>
-                        <td class="edittext">
-                            <input type="text" class="editinput" size="32" maxlength="[{$edit->oxcontents__tabsl_seo_title->fldmax_length}]" name="editval[oxcontents__tabsl_seo_title]" value="[{$edit->oxcontents__tabsl_seo_title->value}]">
-                        </td>
-                    </tr>
-                    [{* tabsl_seo | end *}]  
-
                     <tr>
                       <td class="edittext">
                       [{ oxmultilang ident="GENERAL_IDENT" }].
