@@ -13,14 +13,16 @@ Features
 Installation
 
 	1. copy content from copy_this folder into your shop root
-	2. copy content from changed_full folder into your shop root (and/or customize)
-	3. install sql (see below) and update views (shop admin --> service --> tools)
-	4. activate module psCmsSnippets in shop admin
+	2. activate module psCmsSnippets in shop admin
+	
+	Tip: Use ioly module manager [https://github.com/ioly/ioly/tree/connector-oxid] for installation.
 
 
-Install SQL
+Changelog
 
-	ALTER TABLE  `oxcontents` ADD  `PSCMSSNIPPETS_DISABLE` TINYINT( 1 ) NOT NULL;
+	29.11.2015	1.1.0	remove changed_full, add blocks, add auto-installer
+	15.07.2013	1.0.1	add changed_full
+	27.05.2013	1.0.0	module release
 
 
 License
@@ -41,5 +43,5 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2013
+	Proud Sourcing GmbH 2015
 	www.proudcommerce.com
