@@ -2,7 +2,7 @@ psCmsSnippets
 =========
 
 Setting for CMS pages, which may not be accessible via browser.
-Free Module for OXID eShop.
+Free module for OXID eshop 4.7, 4.8, 4.9 and 4.10.
 
 Features
 
@@ -14,8 +14,6 @@ Installation
 
 	1. copy content from copy_this folder into your shop root
 	2. activate module psCmsSnippets in shop admin
-	
-	Tip: Use ioly module manager [https://github.com/ioly/ioly/tree/connector-oxid] for installation.
 
 
 Changelog
@@ -43,5 +41,5 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2015
-	www.proudcommerce.com
+	Proud Sourcing GmbH 2016
+	www.proudcommerce.com / www.proudsourcing.de

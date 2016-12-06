@@ -25,7 +25,7 @@ $aModule = array(
         'de' => 'Einstellung f&uuml;r CMS-Seiten, welche nicht &uuml;ber den Browser erreichbar sein d&uuml;rfen.',
         'en' => 'Setting for CMS pages, which may not be accessible via browser.',
     ),
-    'thumbnail'    => 'logo-ps.jpg',
+    'thumbnail'    => 'logo_pc-os.jpg',
     'version'      => '1.1.0',
     'author'       => 'Proud Sourcing GmbH',
     'url'          => 'http://www.proudcommerce.com',
