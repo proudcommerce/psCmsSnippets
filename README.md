@@ -9,19 +9,18 @@ Features
 	- checkbox on each cms-page for disabling
 	- if disabled redirect with header 400 to shop start page
 
-
 Installation
 
 	1. copy content from copy_this folder into your shop root
 	2. activate module psCmsSnippets in shop admin
 
+Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module-Connector) to install this module.
 
 Changelog
 
-	29.11.2015	1.1.0	remove changed_full, add blocks, add auto-installer
-	15.07.2013	1.0.1	add changed_full
-	27.05.2013	1.0.0	module release
-
+	2015-11-29	1.1.0	remove changed_full, add blocks, add auto-installer
+	2013-06-15	1.0.1	add changed_full
+	2013-05-27	1.0.0	module release
 
 License
 
@@ -37,7 +36,6 @@ License
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
 
 Copyright
 
