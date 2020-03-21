@@ -26,7 +26,7 @@ $aModule = array(
         'en' => 'Setting for CMS pages, which may not be accessible via browser.',
     ),
     'thumbnail'    => 'logo_pc-os.jpg',
-    'version'      => '1.1.0',
+    'version'      => '1.2.0',
     'author'       => 'Proud Sourcing GmbH',
     'url'          => 'http://www.proudcommerce.com',
     'email'        => 'support@proudcommerce.com',

@@ -25,7 +25,7 @@ class psCmsSnippets_content extends psCmsSnippets_content_parent
         $oContent = $this->getContent();
         if($oContent->oxcontents__pscmssnippets_disable->value)
         {
-            oxUtils::getInstance()->redirect( $this->getConfig()->getShopUrl(), false, 410 );
+            oxRegistry::getUtils()->redirect( $this->getConfig()->getShopUrl(), false, 410 );
         }
         return $mReturn;
     }

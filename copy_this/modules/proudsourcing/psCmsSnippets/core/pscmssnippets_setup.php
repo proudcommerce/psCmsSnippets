@@ -19,7 +19,7 @@ class pscmssnippets_setup extends oxSuperCfg
         $db = oxDb::getDb();
         try {
             if(!self::dbColumnExist('oxcontents', 'PSCMSSNIPPETS_DISABLE')) {
-                $db->Execute("ALTER IGNORE TABLE `oxcontents` ADD `PSCMSSNIPPETS_DISABLE` TINYINT(1) NOT NULL DEFAULT '0'");
+                $db->Execute("ALTER TABLE `oxcontents` ADD `PSCMSSNIPPETS_DISABLE` TINYINT(1) NOT NULL DEFAULT '0'");
             }
 
             // clear tmp dir
