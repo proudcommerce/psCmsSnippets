@@ -18,6 +18,7 @@ Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module
 
 Changelog
 
+	2020-03-19	1.2.0 make the module compatible with OXID 6
 	2015-11-29	1.1.0	remove changed_full, add blocks, add auto-installer
 	2013-06-15	1.0.1	add changed_full
 	2013-05-27	1.0.0	module release
