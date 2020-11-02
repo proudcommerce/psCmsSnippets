@@ -4,14 +4,20 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
- * @copyright (c) Proud Sourcing GmbH | 2015
- * @link www.proudcommerce.com
- * @package psCmsSnippets
- * @version 1.1.0
-**/
-class psCmsSnippets_content extends psCmsSnippets_content_parent
+ *
+ * @copyright (c) ProudCommerce
+ * @link          proudcommerce.com
+ * @package       pcCmsSnippets
+ * @version       2.0.0
+ **/
+
+namespace ProudCommerce\CmsSnippets\Controllers;
+
+use OxidEsales\Eshop\Core\Registry;
+
+class ContentController extends ContentController_parent
 {
+
     /**
      * Executes parent::render(), passes template variables to
      * template engine and generates content. Returns the name
@@ -23,10 +29,11 @@ class psCmsSnippets_content extends psCmsSnippets_content_parent
     {
         $mReturn = parent::render();
         $oContent = $this->getContent();
-        if($oContent->oxcontents__pscmssnippets_disable->value)
-        {
-            oxRegistry::getUtils()->redirect( $this->getConfig()->getShopUrl(), false, 410 );
+        //proudcommerce
+        if ($oContent->oxcontents__pccmssnippets_disable->value) {
+            Registry::getUtils()->redirect(Registry::getConfig()->getShopUrl(), false, 410);
         }
+
         return $mReturn;
     }
 }

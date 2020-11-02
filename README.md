@@ -2,7 +2,7 @@ psCmsSnippets
 =========
 
 Setting for CMS pages, which may not be accessible via browser.
-Free module for OXID eshop 4.7, 4.8, 4.9 and 4.10.
+Free module for OXID 6 ([older Versions](https://github.com/proudcommerce/psCmsSnippets/tree/oxid410)).
 
 Features
 
@@ -11,17 +11,16 @@ Features
 
 Installation
 
-	1. copy content from copy_this folder into your shop root
-	2. activate module psCmsSnippets in shop admin
+	composer require proudcommerce/cmssnippets
 
-Tip: Use the [OXID module connector](https://github.com/OXIDprojects/OXID-Module-Connector) to install this module.
-
+T
 Changelog
 
-	2020-03-19	1.2.0 make the module compatible with OXID 6
-	2015-11-29	1.1.0	remove changed_full, add blocks, add auto-installer
-	2013-06-15	1.0.1	add changed_full
-	2013-05-27	1.0.0	module release
+	2020-11-02  2.0.0   refactoring for oxid 6.2
+	2020-03-19  1.2.0   make the module compatible with OXID 6
+	2015-11-29  1.1.0   remove changed_full, add blocks, add auto-installer
+	2013-06-15  1.0.1   add changed_full
+	2013-05-27  1.0.0   module release
 
 License
 
@@ -40,5 +39,4 @@ License
 
 Copyright
 
-	Proud Sourcing GmbH 2016
-	www.proudcommerce.com / www.proudsourcing.de
+	ProudCommerce | 2020 | proudcommerce.com

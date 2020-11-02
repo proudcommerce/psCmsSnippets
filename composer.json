@@ -1,0 +1,27 @@
+{
+    "name": "proudcommerce/cmssnippets",
+    "description": "Setting for cms pages, which may not be accessible via browser.",
+    "type": "oxideshop-module",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "ProudCommerce",
+            "homepage": "https://www.proudcommerce.com/"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProudCommerce\\CmsSnippts\\": "../../../source/modules/pc/cmssnippets"
+        }
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "pc/cmssnippets"
+        }
+    }
+}
