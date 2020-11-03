@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ProudCommerce\\CmsSnippts\\": "../../../source/modules/pc/cmssnippets"
+            "ProudCommerce\\CmsSnippets\\": "../../../source/modules/pc/cmssnippets"
         }
     },
     "extra": {
