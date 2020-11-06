@@ -8,7 +8,7 @@
  * @copyright (c) ProudCommerce
  * @link          proudcommerce.com
  * @package       pcCmsSnippets
- * @version       2.0.0
+ * @version       2.1.0
  **/
 /**
  * Metadata version
@@ -26,7 +26,7 @@ $aModule = [
         'en' => 'Setting for CMS pages, which may not be accessible via browser.',
     ],
     'thumbnail'   => 'logo_pc-os.jpg',
-    'version'     => '2.0.0',
+    'version'     => '2.1.0',
     'author'      => 'ProudCommerce',
     'url'         => 'https://github.com/proudcommerce/psCmsSnippets',
     'email'       => '---',
@@ -39,6 +39,7 @@ $aModule = [
     ],
     'blocks'      => [
         ['template' => 'content_main.tpl', 'block' => 'admin_content_main_form', 'file' => 'views/blocks/admin_content_main_form.tpl'],
+        ['template' => 'ddoevisualcmsadmin.tpl', 'block' => 'visualcms_settings_form_cmssearch', 'file' => 'views/blocks/visualcms_settings_form_cmssearch.tpl'],
     ],
     'settings'    => [
     ],

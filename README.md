@@ -16,6 +16,7 @@ Installation
 T
 Changelog
 
+	2020-11-06	2.1.0	support visualcms
 	2020-11-02  2.0.0   refactoring for oxid 6.2
 	2020-03-19  1.2.0   make the module compatible with OXID 6
 	2015-11-29  1.1.0   remove changed_full, add blocks, add auto-installer

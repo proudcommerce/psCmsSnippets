@@ -8,7 +8,7 @@
  * @copyright (c) ProudCommerce
  * @link          proudcommerce.com
  * @package       pcCmsSnippets
- * @version       2.0.0
+ * @version       2.1.0
  **/
 
 namespace ProudCommerce\CmsSnippets\Controllers;
@@ -35,5 +35,15 @@ class ContentController extends ContentController_parent
         }
 
         return $mReturn;
+    }
+
+    /**
+     * Get status
+     */
+    public function getPcCmsSnippetsStatus()
+    {
+        $oContent = $this->getContent();
+        echo $oContent->oxcontents__pccmssnippets_disable->value;
+        exit;
     }
 }
